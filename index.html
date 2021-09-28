@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Shuqri's Portfolio Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">SHUQRI SHAIFUDDIN</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link active">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="workedu.html" class="nav-link active">WORK/EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="volunteer.html" class="nav-link active">VOLUNTEER WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="awards.html" class="nav-link active">ACHIEVEMENTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+    <!-- Intro -->
+    <section class="bg-dark text-light p-5 text-center text-md-start">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div class="pe-md-5">
+                    <h1 class="pb-1">Hi! I am Shuqri!</h1>
+                    <p>Since young, I've been interested in IT. During my time in ITE, I've learnt how to code C#, automate using UiPath RPA and set up Cisco routers and switches and more.</p>
+                    <p>Some things that I learn during my free time is how to set up Linux servers that can run many services like SAMBA and maybe even host Minecraft!</p>
+                    <p>Now, I am taking a Diploma in Information Technology in Ngee Ann Polytechnic. I invite you to take a moment and look around this page.</p>
+                </div>
+                <img class="img-fluid w-50" src="img/shuqri.jpg" alt="Shuqri Shaifuddin">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="bg-light text-dark p-5" id="projects">
+        <div class="container">
+            <h1 class="font-weight-bold text-center pb-5">PROJECTS</h1>
+            <div class="d-md-flex justify-content-between align-items-center py-3">
+                <img src="img/website-project.png" alt="Shuqri's portfolio webpage" class="img-fluid w-50">
+                <div class="ps-md-5">
+                    <h2 class="font-weight-semibold">PORTFOLIO SITE (ONGOING PROJECT)</h2>
+                    <p>I was given a Raspberry Pi to tinker around with, but I did not know what to do. Hence, my friends told me to create a website from scratch.</p>
+                    <p>I honestly have zero experience in building a website so it was definitely a struggle. But look where we are now!</p>
+                    <p>This website was built using Bootstrap with suggestions from my great friends.</p>
+                </div>
+            </div>
+
+
+
+            <div class="d-md-flex justify-content-between align-items-center py-3">
+                <div class="pe-md-5">
+                    <h2 class="font-weight-semibold">ITE DIGITALISATION 2020</h2>
+                    <p>We focused on creating a chatbot that will help users navigate in the ITE Student Portal. Using the UiPath inbuilt chatbot, we integrated it with Google's Dialogflow for the logic process.</p>
+                </div>
+                <img class="img-fluid w-50" src="img/chatbot_picture1.png" alt="Shuqri Shaifuddin">
+            </div>
+            <div class="d-md-flex justify-content-between align-items-center py-3">
+                <img class="img-fluid w-50" src="img/internrpa2.png" alt="UiPath Studio window">
+                <div class="ps-md-5">
+                    <h2 class="font-weight-semibold">INTERNSHIP PROJECTS USING RPA</h2>
+                    <p>Over 3 months at ITEHQ, I managed to complete 6 projects as part of their digitalisation move to improve and streamline the processes.</p>
+                    <p>I used UiPath Studio to create all my projects. I've learnt a lot on how these projects have to be created: doing User Acceptance Testing, writing User Guides and more.</p>
+                    <p>I've also learnt about how to make simple log files with the 'Append Line' feature in the software.</p>
+                    <p>You can view some videos of the RPA in action on the button below.</p>
+                    <a class="btn btn-dark" href="https://drive.google.com/drive/folders/11xhJ0H_lduCxppsgjSQLZfil9XSNvLgU?usp=sharing" target="_blank" rel="noopener noreferrer" role="button">View Here</a>
+                </div> 
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <footer class="page-footer font-small bg-dark text-light">
+        <div class="footer-copyright text-center py-2">
+            © 2021 Shuqri Bin Shaifuddin
+        </div>
+    
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <title>Shuqri's Portfolio</title>
+        <link rel="icon" href="img/monitor.png">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!-- 
+            <div class="logo">
+                <img src="img/monitor.png" alt="">
+            </div>
+            
+            
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            -->
+            <div class="page-name">
+                SHUQRI SHAIFUDDIN
+            </div>
+            <nav class="nav">
+                <div class="nav__list">
+                    <div class="nav__item"><a href="#home" class="nav__link">HOME</a></div>
+                    <div class="nav__item"><a href="#projects" class="nav__link">PROJECTS</a></div>
+                    <div class="nav__item"><a href="#workedu" class="nav__link">WORK/EDUCATION</a></div>
+                    <div class="nav__item"><a href="#volunteer" class="nav__link">VOLUNTEER WORK</a></div>
+                    <div class="nav__item"><a href="#achvawards" class="nav__link">ACHIEVEMENTS</a></div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro"><strong>Hi! I am Shuqri!</strong></h1>
+            <div class="section__subtitle section__subtitle--intro">
+                <p>
+                    Since young, I've been interested in IT. During my time in ITE, I've learnt how to code C#, 
+                    automate using UiPath RPA and set up Cisco routers and switches and more.
+                </p>
+                <p>
+                    Some things that I learn during my free time is how to set up Linux servers that can run 
+                    many services like SAMBA and maybe even host Minecraft!
+                </p>
+                <p>
+                    Now, I am taking a Diploma in Information Technology in Ngee Ann Polytechnic. 
+                    I invite you to take a moment and look around this page.
+                </p>
+            </div>
+            <img src="img/shuqri.jpg" alt="A picture of Shuqri smiling" class="intro_img">
+        </section>
+
+        <section class="my-projects" id="projects">
+            <h1 class="section__title section__title--my-projects">My Projects</h1>
+            <div class="project">
+                <h3>First project</h3>
+                <p>123</p>
+            </div>
+            
+            <div class="project">
+                <h3>2 project</h3>
+                <p>123</p>
+            </div>
+            
+            <div class="project">
+                <h3>3 project</h3>
+                <p>123</p>
+            </div>
+        </section>
+
+        <!-- Work and Education -->
+        <section class="work-and-education" id="workedu">
+            <h1 class="section__title section__title--work-and-education">Work and Education</h1>
+            
+            <h2 class="section__title2 section__title2--workexperience">Work Experience</h2>
+            <div class="workexperience">
+                <div class="workexp">
+                    <h3>
+                        <strong>IT Support, ITE Headquarters</strong><br>
+                        June 2020
+                    </h3>
+
+                    <p>Industry-based Training Division</p>
+                    <p>
+                        Improve division's processes by automating workflow using UiPath RPA.<br>
+                        Completed 2 projects involving iStudent (ITE Student Portal).
+                    </p>
+                </div>
+                
+                <div class="workexp">
+                    <h3>
+                        <strong>RPA Intern, ITE Headquarters</strong><br>
+                        April 2020 - June 2020
+                    </h3>
+                    
+                    <p>Industry-based Training Division</p>
+                    <p>
+                        Create RPA projects for division to enhance their process.<br>
+                        Gained interpersonal skills from working with my colleagues on projects.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1Hrn6z_Fq3UM3qMIldiTXqc1O-jdPFhch/view"><strong>View my testimonial here!</strong></a>
+                </div>
+            </div>
+
+            <h2 class="section__title2 section__title2--education">Education</h2>
+            <div class="education">
+                <div class="edu">
+                    <h3>
+                        April 2021 - Present<br>
+                        <strong>Diploma in Information Technology, Ngee Ann Polytechnic</strong>
+                    </h3>
+                    
+                    <p>
+                        Semester 1 GPA: 3.6250<br>
+                        CCA: ORION Special Interest Group, ICT Society
+                    </p>
+                </div>
+
+                <div class="edu">
+                    <h3>
+                        January 2019 - March 2021<br>
+                        <strong>Higher Nitec in IT Systems & Networks, ITE College West</strong>
+                    </h3>
+                    
+                    <p>Director's List for 2019, 2020</p>
+
+                    <p>
+                        Cumulative GPA: 4.0<br>
+                        CCA: Green Ambassadors Club, ACE Club
+                    </p>
+                </div>
+
+                <div class="edu">
+                    <h3>
+                        January 2015 - December 2018<br>
+                        <strong>GCE N(A) Level, Orchid Park Secondary School</strong>
+                    </h3>
+                    
+                    <p>
+                        ELMAB3 Aggregate: 13<br>
+                        CCA: National Civil Defence Cadet Corps, Student Council
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Volunteer Work -->
+        <section class="volunteer-work" id="volunteer">
+            <h1 class="section__title section__title--volunteer-work">Volunteer Work</h1>
+            <div class="volunteer-events">
+
+                <div class="event">
+                    <h3>Taman Jurong Makefest 2019</h3>
+                    <p>
+                        My team and I were tasked to teach the residents in Taman Jurong 
+                        about the functionalities of the Google Home Mini.
+                    </p>
+                    <p>
+                        We had a list of basic functions and added in our own few like:
+                    </p>
+                    <ul>
+                        <li>"Ok Google, set all lights to 50%."</li>
+                        <li>"Ok Google, play my rock and roll playlist on Spotify."</li>
+                    </ul>
+                    <img src="img/shuqri_tjmk2019.jpg" alt="A picture of Shuqri teaching residents of Taman Jurong.">
+                </div>
+
+                <div class="event">
+                    <h3>Merdeka Generation Roadshow</h3>
+                    <p>
+                        We get to teach seniors on some of the apps done by the Government 
+                        like myCPF, HealthHub and Singpass Mobile. They also get to ask us 
+                        regarding their phones like "how to connect to the public WiFi".
+                    </p>
+                    <p>
+                        For example, we taught the seniors that the Singpass Mobile app helps 
+                        to access any Singpass related sites easier. They can do that just by 
+                        scanning the QR code instead of typing in the username and password with 
+                        the OTP.
+                    </p>
+                    <img src="img/shuqri_merdekagenroadshow.jpg" alt="A picture of Shuqri guiding a senior with her phone.">
+                </div>
+
+                <div class="event">
+                    <h3>
+                        11 January 2020<br>
+                        Fei Yue Senja House Painting & Spring Cleaning
+                    </h3>
+
+                    <p>
+                        We were given the chance to clean and paint the homes of the seniors 
+                        living in Senja. My team and I were tasked to spring clean a senior's 
+                        house. We were given mops, sponges, detergent and etc, and managed to 
+                        clean the whole house in about 3 hours.
+                    </p>
+                    <img src="img/postyep_painting.jpg" alt="Shuqri and his groupmates posing with the homeowners.">
+                </div>
+
+                <div class="event">
+                    <h3>
+                        7 December 2019 - 20 December 2019<br>
+                        Youth Expedition Project to Musekee Village, Chiang Mai, Thailand
+                    </h3>
+
+                    <p>
+                        We went to Thailand on a 14-day trip to build a fence at a local 
+                        kindergarten. I had to learn from the locals on how to mix the cement, 
+                        and how to paste the cement onto the bricks.
+                    </p>
+                    <p>We also interacted with the youths to learn more on the language and how they live.</p>
+                    <img src="img/yephouse_grpphoto.jpg" alt="Friends standing on the balcony posing for a photo.">
+                    <img src="img/shuqri_yepbrick.jpg" alt="Shuqri laying down cement to build a wall.">
+                </div>
+
+                <div class="event">
+                    <h3>Clean Green Singapore 2019</h3>
+                    <p>
+                        I manned a booth at the annual event where participants learn how to 
+                        bin their waste properly. Using a claw machine, we re-enact how we bin 
+                        by grabbing the balls and dropping them into the hole.
+                    </p>
+                    <p>
+                        This is especially useful for kids who may want to have a play element 
+                        into learning these actions.
+                    </p>
+                    <img src="img/shuqri_cgs2019.jpg" alt="Shuqri manning the claw machine.">
+                </div>
+
+                <div class="event">
+                    <h3>
+                        2015 - 2019<br>
+                        <strong>Flag Day</strong>
+                    </h3>
+                    <p>Participated in numerous Flag Day's for:</p>
+                    <ul>
+                        <li>Singapore Association for the Visually Handicapped (SAVH)</li>
+                        <li>Boys' Town</li>
+                        <li>Singapore Children's Society</li>
+                        <li>Singapore Heart Foundation</li>
+                    </ul>
+                    <img src="img/shuqri_boystown2019.jpg" alt="Shuqri with Boys' Town volunteers.">
+                </div>
+            </div>
+        </section>
+
+        <!-- My Achievements -->
+        <section class="achievements-awards" id="achvaward">
+            <h1 class="section__title section__title--achievements-awards">My Achievements</h1>
+            <div class="achievement">
+                <h3>3D-Tronics Challenge</h3>
+                <p>
+                    My team and I designed a "smart cane" with the elderly's low eyesight 
+                    in mind. We used a proximity sensor and a buzzer to alert the elderly 
+                    when they are near any obstacles.
+                </p>
+                <p>
+                    We managed to achieve "Best Solution to Problem Statement" for the competition.
+                </p>
+                <img src="img/3dtronics_medal.jpg" alt="Shuqri programming a micro:bit.">
+            </div>
+
+            <h2 class="section__title2 section__title2--achvaward">Awards</h2>
+            <div class="awards">
+                <h3><strong>ITE</strong></h3>
+                <ul>
+                    <li>Tay Eng Soon Gold Medal Award 2021</li>
+                    <li>Gold Course Medallist</li>
+                    <li>LKBM Academic Excellence Award 2020</li>
+                    <li>4PM Bestari Award</li>
+                    <li>ITE-SBR Youth Eco Award 2020</li>
+                </ul>
+                <h3><strong>Orchid Park Secondary School</strong></h3>
+                <ul>
+                    <li>Edusave Award for Achievement, Good Leadership and Service (EAGLES)</li>
+                    <li>Model Pupil of the Year 2018</li>
+                    <li>SCDF-NCDCC Pinnacle Award 2018</li>
+                </ul>
+                <a href="https://drive.google.com/drive/folders/1FlNg5Zegm8uIfyWOSB51RSEAkeC1pOnh?usp=sharing"><strong>View more here!</strong></a>
+            </div>
+
+        </section>
+
+        <footer>          
+            <div class="copyright">&copy; 2021 Shuqri Bin Shaifuddin | All rights reserved.</div>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:shuqri.sh@gmail.com">Email</a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/shuqri/">LinkedIn</a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/iirquhs-np">GitHub</a>
+                </li>
+            </ul>
+        </footer>
+        <div class="attribution">
+            Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+    </body>
+</html>
