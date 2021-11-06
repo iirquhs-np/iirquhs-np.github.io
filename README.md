@@ -1,4 +1,4 @@
 # iirquhs-np.github.io
 Shuqri's Personal Portfolio
 
-https://beta.shuqri.xyz/
+https://github.shuqri.xyz/
